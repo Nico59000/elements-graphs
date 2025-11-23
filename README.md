@@ -4,6 +4,7 @@ Outils Python pour :
 
 - construire un catalogue unifié des niveaux nucléaires (ground + niveaux excités) à partir de l’API IAEA LiveChart (et hooks pour d’autres sources),
 - générer des graphiques 2D/3D des spins et niveaux d’énergie par élément et par isotope (avec gestion des isomères m1/m2/m3).
+- ces outils peuvent etre librement améliorés , personnellement je trouve que c'est encore loin des graphs fait main 
 
 ---
 
