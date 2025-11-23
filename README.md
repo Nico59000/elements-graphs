@@ -184,8 +184,8 @@ python plot_spins_levels_from_catalog_params.py nuclear_levels_catalog.csv \
 
 dans ce cas :
 
---isomer-col doit pointer vers une colonne du CSV contenant des labels de niveaux (par ex. m1, m2, m3).
---isomer-values est la liste (séparée par virgules) des valeurs à considérer comme isomères.
+- --isomer-col doit pointer vers une colonne du CSV contenant des labels de niveaux (par ex. m1, m2, m3).
+- --isomer-values est la liste (séparée par virgules) des valeurs à considérer comme isomères.
 
 
 ## 5.  Notes / Limitations
