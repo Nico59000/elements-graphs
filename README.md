@@ -192,7 +192,7 @@ dans ce cas :
 
 ### L’API IAEA LiveChart ne doit pas être sur-sollicitée :
 
-- utiliser un délai --delay approprié dans build_nuclear_levels_catalog.py si tu lances des scans complets.
+- utiliser un délai --delay approprié dans build_nuclear_levels_catalog.py pour lancer des scans complets.
 - Les hooks NuDat / LNHB / KAERI dans build_nuclear_levels_catalog.py sont génériques et doivent être adaptés au format exact des exports obtenus.
 - La détection et le traitement des isomères m1/m2/m3 supposent :
 - une colonne identifiant les niveaux métastables,
