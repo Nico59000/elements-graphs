@@ -43,7 +43,7 @@ pip install requests pandas matplotlib scipy
 - is_ground (booléen)
 - extra_iaea_* (colonnes brutes supplémentaires)
 
-- Hooks prévus pour :
+Hooks prévus pour :
 
 - un export NuDat au format JSON / CSV,
 - des exports LNHB / KAERI déjà remis en DataFrame.
