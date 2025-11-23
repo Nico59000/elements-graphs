@@ -29,7 +29,7 @@ pip install requests pandas matplotlib scipy
 
 - soit directement avec fields=ground_states&nuclides=all,
 - soit à partir d’un ground_states.csv déjà téléchargé.
-- Récupère les niveaux excités pour chaque nuclide via fields=levels&nuclides=AZ (A+symbole).
+- Récupère les niveaux excités pour chaque nucléide via fields=levels&nuclides=AZ (A+symbole).
 
 - Construit un catalogue “long” avec une ligne par niveau :
 
@@ -68,7 +68,7 @@ python build_nuclear_levels_catalog.py \
     --max-energy-kev 5000 \
     --output nuclear_levels_catalog_0_5MeV.csv
 
-- Limiter le nombre de nuclides pour test :
+- Limiter le nombre de nucléides pour test :
 
 python build_nuclear_levels_catalog.py \
     --max-nuclides 50 \
