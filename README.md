@@ -48,12 +48,12 @@ Hooks prévus pour :
 - un export NuDat au format JSON / CSV,
 - des exports LNHB / KAERI déjà remis en DataFrame.
 
-- Usage simple IAEA uniquement :
+Usage simple IAEA uniquement :
 
 python build_nuclear_levels_catalog.py \
     --output nuclear_levels_catalog.csv
 
-- ou en réutilisant un ground_states local :
+ou en réutilisant un ground_states local :
 
 python build_nuclear_levels_catalog.py \
     --iaea-ground-states ground_states.csv \
