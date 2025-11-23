@@ -25,13 +25,13 @@ pip install requests pandas matplotlib scipy
 
 ### Fonctionnalités
 
-- Récupère les états fondamentaux (ground states) via LiveChart :
+Récupère les états fondamentaux (ground states) via LiveChart :
 
 - soit directement avec fields=ground_states&nuclides=all,
 - soit à partir d’un ground_states.csv déjà téléchargé.
 - Récupère les niveaux excités pour chaque nucléide via fields=levels&nuclides=AZ (A+symbole).
 
-- Construit un catalogue “long” avec une ligne par niveau :
+Construit un catalogue “long” avec une ligne par niveau :
 
 - Colonnes principales (IAEA) :
 
@@ -59,7 +59,7 @@ python build_nuclear_levels_catalog.py \
     --iaea-ground-states ground_states.csv \
     --output nuclear_levels_catalog.csv
 
-- Options utiles
+Options utiles
 
 - Limiter l’énergie des niveaux excités :
 
