@@ -1,4 +1,4 @@
-# Nuclear Isotope Levels Toolkit (scripts produits par IA (Chat GPT-5.1) en one-shot sans debug) 
+# Nuclear Isotope Levels Toolkit (scripts fonctionnels produits par IA (Chat GPT-5.1) en one-shot sans debug) 
 
 Outils Python pour :
 
