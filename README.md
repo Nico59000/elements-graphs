@@ -1,4 +1,4 @@
-# Nuclear Isotope Levels Toolkit
+# Nuclear Isotope Levels Toolkit (produit par IA en one-shot sans debug) 
 
 Outils Python pour :
 
